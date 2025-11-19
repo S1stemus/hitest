@@ -49,13 +49,35 @@
     ```
 1. ## User
     ```python
-    
+    class User(AbstractUser):
+        class Meta:
+            db_table = "users"
+            verbose_name_plural = "Пользователи"
+            verbose_name = "Пользователь"
     ```
 # API
 1. ## Answers
+    1.
+    2.
+    3.
+    4.
 2. ## Question
-3. ## User
+    1.
+    2.
+    3.
+    4.
+    5.
 
+3. ## User
+    1.
+    2. 
+    3. ## http://127.0.0.1:8000/api/token
+    эндпоинт для получения токена возращает access и refresh токены
+
+4. ## Swagger
+    весь Api задокументирован в  swagge для более удобного тестирования
+
+    ## http://127.0.0.1:8000/api/docs/#/
 # Как запустить
 1. ## Скачать репозиторий
     
